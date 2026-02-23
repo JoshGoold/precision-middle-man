@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://precisionlandscaping.ca/:path*",
+      "source": "/(.*)",
+      "destination": "https://precisionlandscaping.ca/$1",
       "permanent": true
     }
   ]
